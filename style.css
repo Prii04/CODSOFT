@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  color:darkcyan;
+  font-family:'Times New Roman', Times, serif; 
+  background-color: rgb(216, 237, 255);
+}
+
+.button{
+  color:rgb(6, 68, 112);
+  width: 66px;
+  text-decoration: double;
+  font:bolder;
+  font-style: italic;
+  font-size: large;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid rgb(0, 88, 175);
+  border-radius: 9px;
+  cursor: pointer;
+  background-color:#86A3C3;
+}
+
+.row{
+  margin: 8px 0;
+}
+
+.row input{
+  background-color:#B6CEC7;
+  width: 291px;
+  font-size: 40px;
+  font-style: oblique;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid rgb(0, 88, 175);
+    border-radius: 5px;
+}
+
+.border{
+  background-color:rgb(162, 224, 224);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-style: solid;
+  border-color: rgb(0, 88, 175);
+  border-width: 2px;
+  text-align: center;
+  font-size: large;
+  font-style: italic;
+  transition: background-color 0.5s ease-in-out;
+  cursor: pointer;
+}
